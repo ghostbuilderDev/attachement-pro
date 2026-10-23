@@ -1,0 +1,14 @@
+{
+  "name": "attachement-pro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PWA locale pour les attachements de travaux",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check dist/js/app.js && node --check dist/sw.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

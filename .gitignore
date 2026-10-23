@@ -1,0 +1,33 @@
+# Dépendances et outils locaux
+node_modules/
+.openai/
+.DS_Store
+*.log
+coverage/
+
+# Données de chantier et exports : ne pas les publier
+backups/
+exports/
+data/
+private/
+*.attachement.json
+*.backup.json
+*.attachement-backup.json
+*.attachement-backup.enc
+*.attachement.enc
+*.pdf
+*.docx
+*.zip
+*.csv
+
+# Résultats de vérification locaux
+qa/
+artifacts/
+test-results/
+playwright-report/
+
+# Sauvegardes téléchargées par Attachement Pro
+*.attpro
+attachement-pro-sauvegarde-*.json
+attachement-pro-avant-restauration-*.json
+sauvegarde-dossier.json

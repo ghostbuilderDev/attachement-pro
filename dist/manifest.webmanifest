@@ -1,0 +1,53 @@
+{
+  "id": "./",
+  "name": "Attachement Pro",
+  "short_name": "Attachements",
+  "description": "Rédiger et documenter les attachements de travaux, sur chantier et hors connexion.",
+  "lang": "fr-FR",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f6f8",
+  "theme_color": "#123f3a",
+  "orientation": "any",
+  "categories": [
+    "business",
+    "productivity"
+  ],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Nouvel attachement",
+      "short_name": "Créer",
+      "description": "Préparer un nouvel attachement",
+      "url": "./#new"
+    },
+    {
+      "name": "Mes attachements",
+      "short_name": "Dossiers",
+      "description": "Retrouver les attachements enregistrés",
+      "url": "./#dashboard"
+    }
+  ]
+}
