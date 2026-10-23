@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fr">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+ <meta name="theme-color" content="#123f3a">
+ <meta name="description" content="Rédigez vos attachements de travaux, documentez vos constats et emportez vos dossiers sur chantier, même hors connexion.">
+ <meta name="apple-mobile-web-app-capable" content="yes">
+ <meta name="apple-mobile-web-app-status-bar-style" content="default">
+ <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; font-src 'self'; worker-src 'self'; frame-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'none'">
+ <title>Attachement Pro — Constats de travaux</title>
+ <link rel="icon" type="image/svg+xml" href="./icons/icon.svg">
+ <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+ <link rel="manifest" href="./manifest.webmanifest">
+ <link rel="stylesheet" href="./styles.css">
+ <script defer src="./vendor/pdf-lib.min.js"></script>
+ <script defer src="./vendor/docx.umd.js"></script>
+ <script type="module" src="./js/app.js"></script>
+</head>
+<body>
+ <a class="skip-link" href="#main">Aller au contenu</a>
+ <div id="app"><div class="boot"><img src="./icons/icon.svg" width="64" height="64" alt=""><h1>Attachement Pro</h1><p>Ouverture de votre espace de travail…</p></div></div>
+ <div id="toast-zone" aria-live="polite" aria-atomic="true"></div>
+ <dialog id="modal" aria-labelledby="modal-title"></dialog>
+ <input type="file" id="attachment-input" accept="image/jpeg,image/png,image/webp,application/pdf" multiple hidden>
+ <input type="file" id="camera-input" accept="image/jpeg,image/png,image/webp" capture="environment" hidden>
+ <input type="file" id="backup-input" accept="application/json,.json,.attpro" hidden>
+ <noscript><p class="noscript">Activez JavaScript pour utiliser les formulaires et les sauvegardes de l’application.</p></noscript>
+</body>
+</html>
